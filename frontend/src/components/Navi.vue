@@ -38,6 +38,12 @@
       <span slot="title">财报解读</span>
     </el-menu-item>
 
+    <!-- 大模型问答菜单项 -->
+    <el-menu-item index="/ai-chat">   <!-- 点击跳转到/ai-chat路由 -->
+      <i class="el-icon-chat-line-round"></i><!-- 聊天图标 -->
+      <span slot="title">大模型问答</span>
+    </el-menu-item>
+
     <!-- 登出按钮 -->
     <el-menu-item @click="handleLogout">
       <i class="el-icon-switch-button"></i>
