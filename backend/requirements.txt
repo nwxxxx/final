@@ -1,5 +1,9 @@
-Flask
-Flask-Cors
+flask
+flask-cors
 PyJWT
+mysqlclient
 python-dotenv
+akshare==1.17.7
+pandas==2.2.0
+requests
 
