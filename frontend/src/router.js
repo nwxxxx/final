@@ -11,6 +11,7 @@ import Login from './components/Login.vue'
 import Register from './components/Register.vue'
 import Forum from './components/Forum.vue'
 import Home from './components/Home.vue'
+import AiChat from './components/AiChat.vue'
 
 // 定义路由配置数组routes
 // 每个路由对象包含path属性（路由路径）和component属性（对应路径下的组件）
@@ -37,6 +38,12 @@ const routes = [
     {
         path: '/report',
         component: Report,
+        meta: {requiresAuth: true}
+    },
+    // 路径'/ai-chat'对应显示AiChat组件
+    {
+        path: '/ai-chat',
+        component: AiChat,
         meta: {requiresAuth: true}
     },
     {
