@@ -5,7 +5,7 @@
     <el-card class="welcome-card">
       <template #header>
         <div class="card-header">
-          <h2>欢迎使用论坛系统</h2>
+          <h2>欢迎使用金融工具系统</h2>
           <div class="time-display">
             <span class="current-time">{{ currentTime }}</span>
             <span class="current-date">{{ currentDate }}</span>
